@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tuvadoq</title>
+
+    <meta name="description" content="Tuvadoq — zamonaviy xizmatlar, yangiliklar va foydali ma'lumotlar.">
+<meta name="keywords" content="Tuvadoq, xizmatlar, yangiliklar, aloqa, O'zbekiston">
+<meta name="author" content="Tuvadoq">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Tuvadoq">
+<meta property="og:description" content="Tuvadoq rasmiy sayti">
+<meta property="og:type" content="website">
+
+<link rel="canonical" href="https://SENING-DOMENING.UZ/">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-white text-slate-900">
+
+
+    <!-- NAVBAR -->
+
+    <header class="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
+
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+
+            <a href="index.html" class="flex items-center gap-2">
+
+                <div
+                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-600 font-black text-white">
+                    T
+                </div>
+
+                <div>
+                    <h1 class="text-lg font-black sm:text-xl">
+                        Tuvadoq
+                    </h1>
+
+                    <p class="hidden text-[10px] text-slate-400 sm:block">
+                        Zamonaviy platforma
+                    </p>
+                </div>
+
+            </a>
+
+
+            <!-- DESKTOP MENU -->
+
+            <nav class="hidden items-center gap-5 lg:gap-8 md:flex">
+
+                <a href="index.html" class="font-bold text-blue-600">
+                    Bosh sahifa
+                </a>
+
+                <a href="xizmatlar.html" class="font-medium text-slate-600 transition hover:text-blue-600">
+                    Xizmatlar
+                </a>
+
+                <a href="haqida.html" class="font-medium text-slate-600 transition hover:text-blue-600">
+                    Biz haqimizda
+                </a>
+
+                <a href="yangiliklar.html" class="font-medium text-slate-600 transition hover:text-blue-600">
+                    Yangiliklar
+                </a>
+
+                <a href="aloqa.html" class="font-medium text-slate-600 transition hover:text-blue-600">
+                    Aloqa
+                </a>
+
+            </nav>
+
+
+            <a href="aloqa.html"
+                class="hidden rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-700 lg:block">
+                Boshlash
+            </a>
+
+
+            <!-- MOBILE BUTTON -->
+
+            <button id="menuBtn"
+                class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-xl md:hidden"
+                aria-label="Menyu">
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE MENU -->
+
+        <div id="mobileMenu" class="mobile-menu border-t border-slate-100 bg-white md:hidden">
+
+            <nav class="flex flex-col px-5 py-5">
+
+                <a href="index.html" class="border-b border-slate-100 py-3 font-bold text-blue-600">
+                    Bosh sahifa
+                </a>
+
+                <a href="xizmatlar.html" class="border-b border-slate-100 py-3 text-slate-600">
+                    Xizmatlar
+                </a>
+
+                <a href="haqida.html" class="border-b border-slate-100 py-3 text-slate-600">
+                    Biz haqimizda
+                </a>
+
+                <a href="yangiliklar.html" class="border-b border-slate-100 py-3 text-slate-600">
+                    Yangiliklar
+                </a>
+
+                <a href="aloqa.html" class="py-3 text-slate-600">
+                    Aloqa
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <section class="relative overflow-hidden bg-slate-50">
+
+        <div class="absolute -right-32 -top-32 h-72 w-72 rounded-full bg-blue-200/40 blur-3xl sm:h-96 sm:w-96"></div>
+
+        <div class="absolute -bottom-32 -left-20 h-72 w-72 rounded-full bg-indigo-200/30 blur-3xl"></div>
+
+
+        <div
+            class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-2 lg:px-8 lg:py-28">
+
+
+            <!-- TEXT -->
+
+            <div>
+
+                <span
+                    class="inline-flex rounded-full border border-blue-100 bg-white px-4 py-2 text-xs font-bold text-blue-600 sm:text-sm">
+                    ● Tuvadoq platformasi
+                </span>
+
+
+                <h2 class="hero-title mt-6 max-w-2xl text-5xl font-black leading-tight tracking-tight sm:text-6xl">
+
+                    G‘oyangizni
+
+                    <span class="text-blue-600">
+                        yangi bosqichga
+                    </span>
+
+                    olib chiqing
+
+                </h2>
+
+
+                <p class="mt-6 max-w-xl text-base leading-7 text-slate-500 sm:text-lg sm:leading-8">
+
+                    Tuvadoq — zamonaviy yechimlar, qulay xizmatlar
+                    va foydalanuvchilar uchun yaratilgan yagona
+                    raqamli platforma.
+
+                </p>
+
+
+                <div class="hero-buttons mt-8 flex flex-col gap-3 sm:flex-row">
+
+                    <a href="xizmatlar.html"
+                        class="rounded-xl bg-blue-600 px-7 py-4 text-center font-bold text-white shadow-xl shadow-blue-600/20 transition hover:bg-blue-700">
+
+                        Xizmatlarni ko‘rish →
+
+                    </a>
+
+
+                    <a href="haqida.html"
+                        class="rounded-xl border border-slate-200 bg-white px-7 py-4 text-center font-bold text-slate-700 hover:text-blue-600">
+
+                        Biz haqimizda
+
+                    </a>
+
+                </div>
+
+
+                <!-- STATS -->
+
+                <div class="mt-10 flex flex-wrap gap-6 border-t border-slate-200 pt-8 sm:gap-10">
+
+                    <div class="stat-item">
+                        <p class="text-2xl font-black">10K+</p>
+                        <p class="text-xs text-slate-500 sm:text-sm">Foydalanuvchilar</p>
+                    </div>
+
+                    <div class="stat-item">
+                        <p class="text-2xl font-black">50+</p>
+                        <p class="text-xs text-slate-500 sm:text-sm">Xizmatlar</p>
+                    </div>
+
+                    <div class="stat-item">
+                        <p class="text-2xl font-black">98%</p>
+                        <p class="text-xs text-slate-500 sm:text-sm">Mamnuniyat</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- DASHBOARD -->
+
+            <div class="w-full">
+
+                <div class="rounded-[28px] border border-slate-200 bg-white p-4 shadow-2xl sm:rounded-[32px] sm:p-5">
+
+                    <div class="rounded-2xl bg-slate-950 p-4 sm:p-5">
+
+                        <div class="flex items-center justify-between">
+
+                            <div>
+                                <p class="text-xs text-slate-400">
+                                    Umumiy natija
+                                </p>
+
+                                <p class="mt-1 text-2xl font-black text-white sm:text-3xl">
+                                    24,850
+                                </p>
+                            </div>
+
+                            <div class="rounded-xl bg-green-500/10 px-2 py-2 text-xs font-bold text-green-400 sm:px-3">
+                                +24.8%
+                            </div>
+
+                        </div>
+
+
+                        <div class="mt-8 flex h-36 items-end gap-2 sm:h-48 sm:gap-3">
+
+                            <div class="h-[30%] flex-1 rounded-t-lg bg-blue-300"></div>
+
+                            <div class="h-[45%] flex-1 rounded-t-lg bg-blue-400"></div>
+
+                            <div class="h-[40%] flex-1 rounded-t-lg bg-blue-300"></div>
+
+                            <div class="h-[60%] flex-1 rounded-t-lg bg-blue-500"></div>
+
+                            <div class="h-[70%] flex-1 rounded-t-lg bg-blue-400"></div>
+
+                            <div class="h-[82%] flex-1 rounded-t-lg bg-blue-500"></div>
+
+                            <div class="h-[95%] flex-1 rounded-t-lg bg-blue-600"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mt-4 grid grid-cols-2 gap-3 sm:gap-4">
+
+                        <div class="rounded-2xl bg-blue-50 p-4 sm:p-5">
+
+                            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
+                                ⚡
+                            </div>
+
+                            <h3 class="mt-3 text-sm font-bold sm:text-base">
+                                Tezkor xizmat
+                            </h3>
+
+                            <p class="mt-1 text-xs leading-5 text-slate-500">
+                                Barcha jarayonlar bir joyda.
+                            </p>
+
+                        </div>
+
+
+                        <div class="rounded-2xl bg-slate-50 p-4 sm:p-5">
+
+                            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-sm">
+                                🔒
+                            </div>
+
+                            <h3 class="mt-3 text-sm font-bold sm:text-base">
+                                Xavfsizlik
+                            </h3>
+
+                            <p class="mt-1 text-xs leading-5 text-slate-500">
+                                Ishonchli platforma.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SERVICES -->
+
+    <section class="py-16 sm:py-20 lg:py-28">
+
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+            <div class="mx-auto max-w-2xl text-center">
+
+                <span class="text-xs font-bold uppercase tracking-widest text-blue-600 sm:text-sm">
+                    Xizmatlar
+                </span>
+
+                <h2 class="section-title mt-3 text-3xl font-black sm:text-4xl">
+                    Siz uchun kerakli imkoniyatlar
+                </h2>
+
+                <p class="mt-4 text-sm leading-7 text-slate-500 sm:text-base">
+                    Tuvadoq orqali turli jarayonlarni tez va qulay boshqaring.
+                </p>
+
+            </div>
+
+
+            <div class="mt-10 grid gap-5 sm:mt-14 md:grid-cols-3">
+
+                <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 sm:p-7">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-2xl">
+                        ⚡
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Tezkor xizmatlar
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-7 text-slate-500 sm:text-base">
+                        Kerakli xizmatlarni bir necha qadam orqali bajaring.
+                    </p>
+                </div>
+
+
+                <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 sm:p-7">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-50 text-2xl">
+                        📊
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Aqlli boshqaruv
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-7 text-slate-500 sm:text-base">
+                        Ma’lumotlarni tartibli saqlang va boshqaring.
+                    </p>
+                </div>
+
+
+                <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 sm:p-7">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 text-2xl">
+                        🔐
+                    </div>
+
+                    <h3 class="mt-5 text-xl font-black">
+                        Xavfsizlik
+                    </h3>
+
+                    <p class="mt-3 text-sm leading-7 text-slate-500 sm:text-base">
+                        Ma’lumotlaringizni zamonaviy yechimlar bilan himoyalang.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="mt-8 text-center sm:mt-10">
+
+                <a href="xizmatlar.html" class="font-bold text-blue-600">
+                    Barcha xizmatlarni ko‘rish →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section class="bg-slate-50 py-16 sm:py-20 lg:py-28">
+
+        <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:px-8">
+
+
+            <div class="rounded-[28px] bg-slate-950 p-5 shadow-2xl sm:rounded-[32px] sm:p-8">
+
+                <div class="rounded-2xl bg-white p-5 sm:p-7">
+
+                    <p class="text-sm text-slate-400">
+                        Tuvadoq
+                    </p>
+
+                    <h3 class="mt-2 text-2xl font-black">
+                        Bizning maqsadimiz
+                    </h3>
+
+                    <p class="mt-5 text-sm leading-7 text-slate-500 sm:text-base">
+                        Texnologiyani har bir inson uchun tushunarli
+                        va foydali vositaga aylantirish.
+                    </p>
+
+
+                    <div class="mt-7 space-y-5">
+
+                        <div>
+
+                            <div class="mb-2 flex justify-between text-xs sm:text-sm">
+                                <span class="font-semibold">
+                                    Foydalanuvchi qulayligi
+                                </span>
+
+                                <span>95%</span>
+                            </div>
+
+                            <div class="h-2 rounded-full bg-slate-100">
+                                <div class="h-2 w-[95%] rounded-full bg-blue-600"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <div class="mb-2 flex justify-between text-xs sm:text-sm">
+                                <span class="font-semibold">
+                                    Sifat
+                                </span>
+
+                                <span>97%</span>
+                            </div>
+
+                            <div class="h-2 rounded-full bg-slate-100">
+                                <div class="h-2 w-[97%] rounded-full bg-indigo-600"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <span class="text-xs font-bold uppercase tracking-widest text-blue-600 sm:text-sm">
+                    Biz haqimizda
+                </span>
+
+                <h2 class="section-title mt-4 text-3xl font-black sm:text-4xl">
+                    Oddiy g‘oya,
+                    <span class="text-blue-600">
+                        katta maqsad
+                    </span>
+                </h2>
+
+                <p class="mt-6 text-sm leading-7 text-slate-500 sm:text-base sm:leading-8">
+                    Tuvadoq foydalanuvchilarga qulay,
+                    zamonaviy va foydali raqamli tajriba
+                    yaratish uchun ishlab chiqilmoqda.
+                </p>
+
+                <p class="mt-4 text-sm leading-7 text-slate-500 sm:text-base sm:leading-8">
+                    Biz texnologiyani murakkab emas,
+                    balki hamma uchun tushunarli bo‘lishini istaymiz.
+                </p>
+
+                <a href="haqida.html" class="mt-6 inline-block font-bold text-blue-600 sm:mt-7">
+                    Biz haqimizda batafsil →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- NEWS -->
+
+    <section class="py-16 sm:py-20">
+
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+            <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+
+                <div>
+
+                    <span class="text-xs font-bold uppercase tracking-widest text-blue-600 sm:text-sm">
+                        Yangiliklar
+                    </span>
+
+                    <h2 class="section-title mt-3 text-3xl font-black">
+                        So‘nggi yangiliklar
+                    </h2>
+
+                </div>
+
+                <a href="yangiliklar.html" class="font-bold text-blue-600">
+                    Barchasini ko‘rish →
+                </a>
+
+            </div>
+
+
+            <div class="mt-8 grid gap-5 sm:mt-10 md:grid-cols-3">
+
+
+                <article class="overflow-hidden rounded-3xl border shadow-lg shadow-slate-200/40">
+
+                    <div class="flex h-40 items-end bg-gradient-to-br from-blue-500 to-indigo-700 p-5 sm:h-44 sm:p-6">
+
+                        <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white">
+                            Yangilik
+                        </span>
+
+                    </div>
+
+                    <div class="p-5 sm:p-6">
+
+                        <p class="text-xs text-slate-400">
+                            24 Avgust, 2026
+                        </p>
+
+                        <h3 class="mt-3 text-lg font-black sm:text-xl">
+                            Tuvadoqda yangi imkoniyatlar
+                        </h3>
+
+                        <p class="mt-3 text-sm leading-6 text-slate-500">
+                            Platformaga yangi funksiyalar qo‘shildi.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="overflow-hidden rounded-3xl border shadow-lg shadow-slate-200/40">
+
+                    <div class="flex h-40 items-end bg-gradient-to-br from-purple-500 to-indigo-700 p-5 sm:h-44 sm:p-6">
+
+                        <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white">
+                            Maqola
+                        </span>
+
+                    </div>
+
+                    <div class="p-5 sm:p-6">
+
+                        <p class="text-xs text-slate-400">
+                            20 Avgust, 2026
+                        </p>
+
+                        <h3 class="mt-3 text-lg font-black sm:text-xl">
+                            Raqamli xizmatlar kelajagi
+                        </h3>
+
+                        <p class="mt-3 text-sm leading-6 text-slate-500">
+                            Texnologiyalar hayotimizni qanday o‘zgartirmoqda?
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="overflow-hidden rounded-3xl border shadow-lg shadow-slate-200/40">
+
+                    <div class="flex h-40 items-end bg-gradient-to-br from-cyan-500 to-blue-700 p-5 sm:h-44 sm:p-6">
+
+                        <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white">
+                            Tavsiya
+                        </span>
+
+                    </div>
+
+                    <div class="p-5 sm:p-6">
+
+                        <p class="text-xs text-slate-400">
+                            17 Avgust, 2026
+                        </p>
+
+                        <h3 class="mt-3 text-lg font-black sm:text-xl">
+                            Platformadan samarali foydalanish
+                        </h3>
+
+                        <p class="mt-3 text-sm leading-6 text-slate-500">
+                            Foydali maslahatlar va tavsiyalar.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CTA -->
+
+    <section class="px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+
+        <div
+            class="mx-auto max-w-7xl rounded-[28px] bg-blue-600 px-5 py-12 text-center shadow-2xl shadow-blue-600/20 sm:rounded-[32px] sm:px-10 sm:py-14">
+
+            <h2 class="text-3xl font-black text-white sm:text-4xl">
+                Tuvadoq bilan bugunoq boshlang
+            </h2>
+
+            <p class="mx-auto mt-4 max-w-2xl text-sm leading-7 text-blue-100 sm:text-base">
+                Platformamiz imkoniyatlarini ko‘rib chiqing
+                yoki biz bilan bog‘laning.
+            </p>
+
+
+            <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:justify-center">
+
+                <a href="xizmatlar.html" class="rounded-xl bg-white px-7 py-4 font-bold text-blue-600 hover:bg-blue-50">
+                    Xizmatlarni ko‘rish
+                </a>
+
+                <a href="aloqa.html"
+                    class="rounded-xl border border-white/30 px-7 py-4 font-bold text-white hover:bg-white/10">
+                    Bog‘lanish
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="border-t border-slate-200 bg-white">
+
+        <div
+            class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+
+            <div>
+
+                <p class="font-bold text-slate-900">
+                    Tuvadoq
+                </p>
+
+                <p class="mt-1 text-xs text-slate-500 sm:text-sm">
+                    © 2026. Barcha huquqlar himoyalangan.
+                </p>
+
+            </div>
+
+
+            <div class="flex flex-wrap gap-x-5 gap-y-3 text-sm">
+
+                <a href="index.html" class="hover:text-blue-600">
+                    Bosh sahifa
+                </a>
+
+                <a href="xizmatlar.html" class="hover:text-blue-600">
+                    Xizmatlar
+                </a>
+
+                <a href="haqida.html" class="hover:text-blue-600">
+                    Biz haqimizda
+                </a>
+
+                <a href="yangiliklar.html" class="hover:text-blue-600">
+                    Yangiliklar
+                </a>
+
+                <a href="aloqa.html" class="hover:text-blue-600">
+                    Aloqa
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- MOBILE MENU -->
+
+    <script>
+
+        const menuBtn = document.getElementById("menuBtn");
+
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        menuBtn.addEventListener("click", function () {
+
+            mobileMenu.classList.toggle("open");
+
+        });
+
+
+        mobileMenu.querySelectorAll("a").forEach(function (link) {
+
+            link.addEventListener("click", function () {
+
+                mobileMenu.classList.remove("open");
+
+            });
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tuvadoq — Xizmatlar</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-white text-slate-900">
+
+<!-- NAVBAR -->
+
+<header class="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
+
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+
+    <a href="index.html" class="flex items-center gap-2">
+
+      <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-600 font-black text-white">
+        T
+      </div>
+
+      <div>
+        <h1 class="text-lg font-black sm:text-xl">Tuvadoq</h1>
+        <p class="hidden text-[10px] text-slate-400 sm:block">
+          Zamonaviy platforma
+        </p>
+      </div>
+
+    </a>
+
+    <nav class="hidden items-center gap-5 lg:gap-8 md:flex">
+
+      <a href="index.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Bosh sahifa
+      </a>
+
+      <a href="xizmatlar.html" class="font-bold text-blue-600">
+        Xizmatlar
+      </a>
+
+      <a href="haqida.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Biz haqimizda
+      </a>
+
+      <a href="yangiliklar.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Yangiliklar
+      </a>
+
+      <a href="aloqa.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Aloqa
+      </a>
+
+    </nav>
+
+    <a href="aloqa.html"
+       class="hidden rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-700 lg:block">
+      Boshlash
+    </a>
+
+    <button id="menuBtn"
+      class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-xl md:hidden">
+      ☰
+    </button>
+
+  </div>
+
+
+  <div id="mobileMenu" class="mobile-menu border-t border-slate-100 bg-white md:hidden">
+
+    <nav class="flex flex-col px-5 py-5">
+
+      <a href="index.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Bosh sahifa
+      </a>
+
+      <a href="xizmatlar.html" class="border-b border-slate-100 py-3 font-bold text-blue-600">
+        Xizmatlar
+      </a>
+
+      <a href="haqida.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Biz haqimizda
+      </a>
+
+      <a href="yangiliklar.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Yangiliklar
+      </a>
+
+      <a href="aloqa.html" class="py-3 text-slate-600">
+        Aloqa
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="bg-slate-50">
+
+  <div class="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+
+    <span class="text-xs font-bold uppercase tracking-widest text-blue-600 sm:text-sm">
+      Bizning xizmatlar
+    </span>
+
+    <h2 class="mt-4 text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
+      Sizga kerak bo‘lgan
+      <span class="text-blue-600">barcha xizmatlar</span>
+    </h2>
+
+    <p class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-500 sm:text-lg sm:leading-8">
+      Tuvadoq orqali kundalik va professional jarayonlarni
+      tez, qulay va samarali boshqaring.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="py-16 sm:py-20 lg:py-24">
+
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+
+      <!-- CARD -->
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-2xl">
+          ⚡
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Tezkor xizmatlar
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Kerakli amallarni tez va ortiqcha vaqt sarflamasdan bajaring.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-50 text-2xl">
+          📊
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Ma’lumotlar boshqaruvi
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Ma’lumotlarni tartibli saqlash va boshqarish imkoniyati.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-50 text-2xl">
+          🔐
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Xavfsizlik
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Muhim ma’lumotlarni ishonchli va xavfsiz saqlash.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-50 text-2xl">
+          🚀
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Rivojlanish
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Loyihalarni yangi bosqichga olib chiqishga yordam beruvchi imkoniyatlar.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-50 text-2xl">
+          💡
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Konsultatsiya
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Savollaringiz bo‘yicha foydali maslahat va yo‘nalishlar.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+
+      <div class="rounded-3xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/40 transition hover:-translate-y-1 sm:p-7">
+
+        <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-50 text-2xl">
+          🌐
+        </div>
+
+        <h3 class="mt-6 text-xl font-black">
+          Raqamli yechimlar
+        </h3>
+
+        <p class="mt-3 text-sm leading-7 text-slate-500">
+          Zamonaviy texnologiyalar asosida qulay raqamli yechimlar.
+        </p>
+
+        <a href="aloqa.html"
+           class="mt-6 inline-block font-bold text-blue-600">
+          Batafsil →
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="px-4 pb-16 sm:px-6 lg:px-8">
+
+  <div class="mx-auto max-w-7xl rounded-[28px] bg-blue-600 px-5 py-12 text-center sm:px-10">
+
+    <h2 class="text-3xl font-black text-white sm:text-4xl">
+      Xizmatlardan foydalanishga tayyormisiz?
+    </h2>
+
+    <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-blue-100 sm:text-base">
+      Biz bilan bog‘laning va siz uchun eng yaxshi yechimni toping.
+    </p>
+
+    <a href="aloqa.html"
+       class="mt-7 inline-block rounded-xl bg-white px-7 py-4 font-bold text-blue-600">
+      Biz bilan bog‘lanish
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="border-t border-slate-200">
+
+  <div class="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-8 sm:px-6 lg:flex-row lg:justify-between lg:px-8">
+
+    <div>
+      <p class="font-bold">Tuvadoq</p>
+      <p class="mt-1 text-sm text-slate-500">
+        © 2026. Barcha huquqlar himoyalangan.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap gap-5 text-sm text-slate-500">
+      <a href="index.html">Bosh sahifa</a>
+      <a href="xizmatlar.html">Xizmatlar</a>
+      <a href="haqida.html">Biz haqimizda</a>
+      <a href="yangiliklar.html">Yangiliklar</a>
+      <a href="aloqa.html">Aloqa</a>
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+const menuBtn = document.getElementById("menuBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("open");
+});
+
+mobileMenu.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("open");
+  });
+});
+
+</script>
+
+</body>
+</html>

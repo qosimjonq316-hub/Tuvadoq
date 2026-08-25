@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>Tuvadoq — Aloqa</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+
+<!-- NAVBAR -->
+
+<header class="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
+
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+
+    <a href="index.html" class="flex items-center gap-2">
+
+      <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 font-black text-white">
+        T
+      </div>
+
+      <div>
+        <h1 class="text-lg font-black sm:text-xl">
+          Tuvadoq
+        </h1>
+
+        <p class="hidden text-[10px] text-slate-400 sm:block">
+          Zamonaviy platforma
+        </p>
+      </div>
+
+    </a>
+
+
+    <nav class="hidden items-center gap-5 lg:gap-8 md:flex">
+
+      <a href="index.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Bosh sahifa
+      </a>
+
+      <a href="xizmatlar.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Xizmatlar
+      </a>
+
+      <a href="haqida.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Biz haqimizda
+      </a>
+
+      <a href="yangiliklar.html" class="font-medium text-slate-600 hover:text-blue-600">
+        Yangiliklar
+      </a>
+
+      <a href="aloqa.html" class="font-bold text-blue-600">
+        Aloqa
+      </a>
+
+    </nav>
+
+
+    <a href="aloqa.html"
+       class="hidden rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white lg:block">
+      Bog‘lanish
+    </a>
+
+
+    <button id="menuBtn"
+      class="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-xl md:hidden">
+      ☰
+    </button>
+
+  </div>
+
+
+  <div id="mobileMenu" class="mobile-menu border-t border-slate-100 bg-white md:hidden">
+
+    <nav class="flex flex-col px-5 py-5">
+
+      <a href="index.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Bosh sahifa
+      </a>
+
+      <a href="xizmatlar.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Xizmatlar
+      </a>
+
+      <a href="haqida.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Biz haqimizda
+      </a>
+
+      <a href="yangiliklar.html" class="border-b border-slate-100 py-3 text-slate-600">
+        Yangiliklar
+      </a>
+
+      <a href="aloqa.html" class="py-3 font-bold text-blue-600">
+        Aloqa
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="bg-white">
+
+  <div class="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+
+    <span class="text-xs font-bold uppercase tracking-widest text-blue-600 sm:text-sm">
+      Aloqa
+    </span>
+
+    <h2 class="mt-4 text-4xl font-black sm:text-5xl lg:text-6xl">
+      Biz bilan bog‘laning
+    </h2>
+
+    <p class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-slate-500 sm:text-lg">
+      Savollaringiz yoki takliflaringiz bo‘lsa,
+      bizga yozing.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="pb-16 sm:pb-20 lg:pb-28">
+
+  <div class="mx-auto grid max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-5 lg:px-8">
+
+
+    <!-- INFO -->
+
+    <div class="rounded-[28px] bg-slate-950 p-6 text-white sm:p-8 lg:col-span-2">
+
+      <span class="text-sm font-bold text-blue-400">
+        Kontaktlar
+      </span>
+
+      <h3 class="mt-3 text-2xl font-black sm:text-3xl">
+        Sizni eshitishga tayyormiz
+      </h3>
+
+      <p class="mt-4 text-sm leading-7 text-slate-400">
+        Istalgan savol yoki taklifingiz bo‘yicha biz bilan bog‘lanishingiz mumkin.
+      </p>
+
+
+      <div class="mt-8 space-y-6">
+
+
+        <div class="flex gap-4">
+
+          <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10">
+            📧
+          </div>
+
+          <div>
+            <p class="text-xs text-slate-500">
+              Email
+            </p>
+
+            <p class="mt-1 text-sm font-bold">
+              info@tuvadoq.uz
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="flex gap-4">
+
+          <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10">
+            📞
+          </div>
+
+          <div>
+            <p class="text-xs text-slate-500">
+              Telefon
+            </p>
+
+            <p class="mt-1 text-sm font-bold">
+              +998 90 123 45 67
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="flex gap-4">
+
+          <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10">
+            📍
+          </div>
+
+          <div>
+            <p class="text-xs text-slate-500">
+              Manzil
+            </p>
+
+            <p class="mt-1 text-sm font-bold">
+              Toshkent, O‘zbekiston
+            </p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <!-- FORM -->
+
+    <div class="rounded-[28px] border border-slate-200 bg-white p-5 shadow-lg shadow-slate-200/40 sm:p-8 lg:col-span-3">
+
+      <h3 class="text-2xl font-black">
+        Xabar yuborish
+      </h3>
+
+      <p class="mt-2 text-sm text-slate-500">
+        Formani to‘ldiring va biz siz bilan bog‘lanamiz.
+      </p>
+
+
+      <form
+        id="contactForm"
+        class="mt-8 space-y-5">
+
+
+        <div class="grid gap-5 sm:grid-cols-2">
+
+
+          <div>
+
+            <label class="mb-2 block text-sm font-bold">
+              Ismingiz
+            </label>
+
+            <input
+              type="text"
+              placeholder="Ismingizni kiriting"
+              required
+              class="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-4 focus:ring-blue-600/10">
+
+          </div>
+
+
+          <div>
+
+            <label class="mb-2 block text-sm font-bold">
+              Telefon
+            </label>
+
+            <input
+              type="tel"
+              placeholder="+998 90 000 00 00"
+              required
+              class="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-4 focus:ring-blue-600/10">
+
+          </div>
+
+
+        </div>
+
+
+        <div>
+
+          <label class="mb-2 block text-sm font-bold">
+            Email
+          </label>
+
+          <input
+            type="email"
+            placeholder="email@example.com"
+            required
+            class="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-4 focus:ring-blue-600/10">
+
+        </div>
+
+
+        <div>
+
+          <label class="mb-2 block text-sm font-bold">
+            Xabaringiz
+          </label>
+
+          <textarea
+            rows="6"
+            placeholder="Xabaringizni yozing..."
+            required
+            class="w-full resize-none rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-blue-600 focus:ring-4 focus:ring-blue-600/10"></textarea>
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="w-full rounded-xl bg-blue-600 px-6 py-4 font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700">
+
+          Xabar yuborish →
+
+        </button>
+
+
+        <p
+          id="successMessage"
+          class="hidden rounded-xl bg-green-50 p-4 text-center text-sm font-bold text-green-600">
+
+          ✓ Xabaringiz qabul qilindi!
+
+        </p>
+
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="border-t border-slate-200 bg-white">
+
+  <div class="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-8 sm:px-6 lg:flex-row lg:justify-between lg:px-8">
+
+    <div>
+
+      <p class="font-bold">
+        Tuvadoq
+      </p>
+
+      <p class="mt-1 text-sm text-slate-500">
+        © 2026. Barcha huquqlar himoyalangan.
+      </p>
+
+    </div>
+
+
+    <div class="flex flex-wrap gap-5 text-sm text-slate-500">
+
+      <a href="index.html">Bosh sahifa</a>
+
+      <a href="xizmatlar.html">Xizmatlar</a>
+
+      <a href="haqida.html">Biz haqimizda</a>
+
+      <a href="yangiliklar.html">Yangiliklar</a>
+
+      <a href="aloqa.html">Aloqa</a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+const menuBtn = document.getElementById("menuBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("open");
+});
+
+mobileMenu.querySelectorAll("a").forEach(link => {
+
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("open");
+  });
+
+});
+
+
+const form = document.getElementById("contactForm");
+const successMessage = document.getElementById("successMessage");
+
+form.addEventListener("submit", (e) => {
+
+  e.preventDefault();
+
+  successMessage.classList.remove("hidden");
+
+  form.reset();
+
+});
+
+</script>
+
+
+</body>
+</html>
